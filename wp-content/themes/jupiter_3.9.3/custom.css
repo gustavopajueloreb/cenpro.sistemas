@@ -1,0 +1,97 @@
+/*
+
+Your custom css
+
+*/
+@media screen and (max-width: 765px) {
+	#mk-header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+	
+	#theme-page {
+		margin-top: 193px;
+	}
+	
+	.home #theme-page {
+		margin-top: 93px !important;
+	}
+	
+	#theme-page .theme-page-wrapper .theme-content.no-padding {
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+	}
+}
+
+.frase {
+  	color: #fff !important;
+  	font-size: 24px !important;
+  	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+
+h1.frase{
+  	font-size: 40px !important;
+}
+
+.hype {
+  	font-size: 40px !important;
+   	line-height: 40px;
+}
+
+.center {
+  	margin-left: -417px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.home .royalSlider {
+    margin-bottom: 0 !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.tab_transparent .mk-tabs-panes {
+    background-color: inherit !important;
+    border: inherit !important;
+}
+
+.accordion_transparent .mk-accordion-pane, .accordion_transparent .mk-accordion-single {
+    background-color: inherit !important;
+}
+
+.lista {
+    list-style-type: none;
+}
+
+.lista li i {
+    font-size: 24px;
+    margin-left: -25px;
+    padding-right: 5px;
+}
+
+.contacto .widget_contact_info {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contacto .widget_contact_info ul li i {
+    font-size: 18px !important;
+}
+
+.contacto .mk-form-row input:focus, .contacto .mk-form-row textarea:focus {
+    border: 1px #fff solid !important;
+}
+
+span.milestone-prefix {
+    font-size: 18px !important;
+}
